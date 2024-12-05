@@ -12,3 +12,8 @@ The folder entitled IntData holds intermediate data files created during my anal
 air quality estimates, fire predictions, and cleaned and merged annual health data.
 
 Licensing and sources are described in the LICENSE markdown.
+
+Reproducibility Guide:
+
+All data needed for reproducibility can be obtained through the API calls in part1.ipynb or where part2.ipynb loads the healthData folder.
+Part 1 should be run before part 2, since 2 imports some of the intermediate files created from variables in part 1.
